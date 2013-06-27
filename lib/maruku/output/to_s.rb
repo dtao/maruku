@@ -9,7 +9,7 @@ module MaRuKu
     end
 
     def children_to_s
-      @children.join
+      array_to_html(@children).join
     end
   end
 end
